@@ -11,5 +11,5 @@ export async function ping(url: string) {
 
 // use example
 // (async () => {
-//     console.log('online', await ping('https://basf.science'))
+//     console.log('online', await ping('https:/some.url'))
 // })()
