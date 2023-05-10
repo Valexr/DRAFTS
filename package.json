@@ -1,0 +1,23 @@
+{
+  "name": "drafts",
+  "version": "1.0.0",
+  "description": "Svelte TS components",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild",
+    "dev": "node esbuild --dev --spa",
+    "preview": "npx esbuild --servedir=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Valexr/DRAFTS.git"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.18",
+    "esbuild-svelte": "^0.7.3",
+    "svelte": "^3.59.1",
+    "svelte-preprocess": "^5.0.3",
+    "typescript": "^5.0.4"
+  }
+}
